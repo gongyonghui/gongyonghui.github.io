@@ -32,15 +32,6 @@ h2 { font-size: 20px; }
 h3 { font-size: 16px; line-height: 32px; }
 h5 { font-size: 14px; line-height: 28px; }
 
-.foot_beian:hover{ color:#666;}
-
-@font-face
-{
-	font-family: syre;
-	src:url('../font/SOURCEHANSANSCN-REGULAR.OTF')
-	   ,url('../font/SOURCEHANSANSCN-REGULAR.eot'); 
-}
-
 
 
 

@@ -1,7 +1,7 @@
 ---
 outline: deep
 title: Vue 和 React
-titleTemplate: 小徐前端手记
+titleTemplate: 前端日记
 ---
 
 # Vue 和 React

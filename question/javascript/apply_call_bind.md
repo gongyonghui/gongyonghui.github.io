@@ -1,7 +1,7 @@
 ---
 outline: deep
 title: apply、call、bind 比较
-titleTemplate: 小徐前端手记
+titleTemplate: 前端日记
 ---
 # apply、call、bind 比较
 

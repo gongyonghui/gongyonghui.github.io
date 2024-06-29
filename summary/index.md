@@ -1,6 +1,6 @@
 ---
 outline: deep
-titleTemplate: 小徐前端手记
+titleTemplate: 前端日记
 ---
 
 # 技术总结

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-    ['link', 
+    ['link',
       { rel: 'icon', href: '/favicon.ico' }
     ],
     [
@@ -22,7 +22,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "小徐前端手记,Taotao's Blog,xutaotao,Xutaotaotao,Taotao,徐涛焘,徐涛涛,徐涛,blog,Blog,技术博客,博客,个人博客,技术总结,问题解析,个人成长,前端,JavaScript,Vue,React,网络,Electron,Node.js,TypeScript,Rust",
+          "前端日记,gongyonghui,blog,Blog,技术博客,博客,个人博客,技术总结,问题解析,个人成长,前端,JavaScript,Vue,React,网络,Node.js,TypeScript",
       },
     ],
     [
@@ -84,27 +84,24 @@ export default defineConfig({
   },
   lastUpdated: true,
   title: "技术总结备忘录",
-  titleTemplate: "小徐前端手记",
-  description: "小徐前端手记,Taotao's Blog,xutaotao,Xutaotaotao,Taotao,徐涛焘,徐涛涛,徐涛,blog,Blog,技术博客,博客,个人博客,技术总结,问题解析,个人成长,前端,JavaScript,Vue,React,网络,Electron,Node.js,TypeScript,Rust",
+  titleTemplate: "前端日记",
+  description: "前端日记,gongyonghui,blog,Blog,技术博客,博客,个人博客,技术总结,问题解析,个人成长,前端,JavaScript,Vue,网络,Node.js,TypeScript",
   themeConfig: {
-    siteTitle:'小徐前端手记',
+    siteTitle:'前端日记',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
     },
     footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'ICP备案/许可证号：  <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2023003982号-2</a>'
+      message: '如有转载或 CV 的请标注本站原文地址'
     },
     nav: [
       { text: '技术总结', link: '/summary/',activeMatch: '^/summary/' },
       { text: '问题解析', link: '/question/',activeMatch: '^/question/' },
       // { text: '个人成长', link: '/growth/',activeMatch: '^/growth/' }
-      { text: '摄影集锦', link: '/photo/',activeMatch: '^/photo/' },
+      { text: '生活感悟', link: '/photo/',activeMatch: '^/photo/' },
       { text: '开源项目',items: [
-        { text: 'electron-prokit', link: 'https://xutaotaotao.github.io/electron-prokit/' },
         { text: 'FindAll', link: 'https://findallteam.github.io/' },
-        { text: 'XTools', link: 'https://taotaoxu.com/XTools/' },
       ]},
       { text: '关于我', link: '/about/',activeMatch: '^/about/' },
     ],
@@ -116,10 +113,6 @@ export default defineConfig({
             {
               text: 'Electron实战',
               items: [
-                {
-                  text: '为什么选择Electron',
-                  link: '/summary/electron/why_choose_electron'
-                },
                 {
                   text: 'Electron生态开发技术选型',
                   link: '/summary/electron/development_technology_selection'
@@ -333,10 +326,6 @@ export default defineConfig({
           link:'/photo/2024-03-16'
         }
       ]
-    },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Xutaotaotao' }
-    ]
+    }
   }
 })

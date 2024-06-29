@@ -1,6 +1,6 @@
 ---
 outline: deep
-titleTemplate: 小徐前端手记
+titleTemplate: 前端手记
 ---
 
 # 问题解析

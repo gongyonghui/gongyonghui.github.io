@@ -27,14 +27,6 @@ export default defineConfig({
     ],
     [
       'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-TFGN8CGD' }
-    ],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-TB63M8G2D6' }
-    ],
-    [
-      'script',
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -72,7 +64,7 @@ export default defineConfig({
     ]
   ],
   transformPageData(pageData) {
-    const canonicalUrl = `https://taotaoxu.com/${pageData.relativePath}`
+    const canonicalUrl = `://gongyonghui.cn/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '.html')
 
@@ -82,7 +74,7 @@ export default defineConfig({
       { rel: 'canonical', href: canonicalUrl }
     ])
   },
-  lastUpdated: true,
+  lastUpdated: false,
   title: "技术总结备忘录",
   titleTemplate: "前端日记",
   description: "前端日记,gongyonghui,blog,Blog,技术博客,博客,个人博客,技术总结,问题解析,个人成长,前端,JavaScript,Vue,网络,Node.js,TypeScript",

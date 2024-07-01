@@ -13,6 +13,7 @@ function getSidebar(folder, basePath = '') {
         }))
 }
 export default defineConfig({
+    ignoreDeadLinks: true,
     head: [
         ['link',
             {rel: 'icon', href: '/favicon.ico'}
@@ -252,15 +253,7 @@ export default defineConfig({
                                 {
                                     text: 'JSBridge原理简析',
                                     link: '/question/sundry/JSBridge'
-                                },
-                                {
-                                    text: 'Vue keep-alive使用&详解',
-                                    link: '/summary/practice/vue_keep_alive'
-                                },
-                                {
-                                    text: 'react-i18next 实现国际化',
-                                    link: '/summary/practice/react_i18'
-                                },
+                                }
                             ]
                         }
                     ]

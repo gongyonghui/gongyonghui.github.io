@@ -1,7 +1,7 @@
 ---
 outline: deep
 footer: false
-title: 关于我
+title: 关于我lala
 titleTemplate: 前端日记
 ---
 
